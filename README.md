@@ -39,9 +39,8 @@ Edit
 ## ⚙️ Setup & Usage
 1. **Clone the repo**
    ```bash
-
-  git clone https://github.com/<your-username>/fraud-detection-ml.git
-  cd fraud-detection-ml
+   git clone https://github.com/<your-username>/fraud-detection-ml.git
+   cd fraud-detection-ml
 Create & activate a virtual environment (recommended)
 
 bash
