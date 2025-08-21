@@ -23,11 +23,9 @@ It covers **data cleaning, EDA, feature engineering, class imbalance handling (S
 - **Environment:** Jupyter Notebook
 
 ## 📂 Repository Structure
-fraud-detection-ml/
-│── data/ # (placeholder) do not commit large CSVs
-│ └── README.md # add source/link or usage notes here
+fraud-detection/
 │── notebook/
-│ └── Fraud_Detection_Assignment_Updated.ipynb
+│ └── Fraud_Detection_Assignment.ipynb
 │── requirements.txt
 │── README.md
 │── .gitignore
@@ -88,7 +86,7 @@ Interpretability: Feature importance charts; translate signals into business lan
 
 Recommendations: real-time anomaly detection, MFA for high-value transactions, risk-based limits.
 
-📊 Results (replace with your actual metrics)
+📊 Results 
 Model	Precision	Recall	F1-Score	ROC-AUC
 Logistic Regression				
 Random Forest				
@@ -112,8 +110,6 @@ Columns include: step, type, amount, nameOrig, oldbalanceOrg, newbalanceOrig, na
 
 ✅ Best Practices Followed
 Reproducible environment via requirements.txt
-
-Clean project structure & .gitignore (exclude large data, checkpoints, caches)
 
 Clear separation of analysis (EDA) and modeling
 
